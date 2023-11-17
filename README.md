@@ -1,3 +1,3 @@
 # A full stack journey
 
-hackers way
+A cool long journey
