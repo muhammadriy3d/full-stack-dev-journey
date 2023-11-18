@@ -33,19 +33,19 @@ make
 - Start a development server
 
 ```shell
-make day01_dev // or any day**
+make day01_dev # or any day**
 ```
 
 - Start a production server
 
 ```shell
-make day01 // or any day**
+make day01 # or any day**
 ```
 
 - for tests (it'll be avaliable later)
 
 ```shell
-make test_day01 // or any day**
+make test_day01 # or any day**
 ```
 
 ### Second way: Docker
