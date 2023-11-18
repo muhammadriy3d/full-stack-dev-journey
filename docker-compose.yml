@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: full-stack-dev-projects
+    image: full-stack-dev-projects
+    build:
+      context: .
+    ports:
+      - 8080:80
