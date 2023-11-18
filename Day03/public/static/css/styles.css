@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap');
 
 :root {
-  --page-color: #fbfbfb;
+  --page-color: #F5f5f5;
   --sep-color: #333;
   --button-color: rgb(250, 99, 99);
   --primary-bg-color: #ff8787;
@@ -148,4 +148,19 @@ input {
   background-color: #292d36;
   transform: scale(0.95);
   box-shadow: 2px 4px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+.footer-owner {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  bottom: 10vh;
+  right: 0;
+  left: 0;
+  color: gray;
+  font-weight: 600;
+  font-size: 1em;
 }
