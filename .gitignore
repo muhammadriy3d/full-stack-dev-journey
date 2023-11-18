@@ -1,8 +1,9 @@
-package-lock.json
 /project_sample
-# /node_modules
 node_modules
+/node_modules
+
 *.dev.*
+package-lock.json
 
 .env.development
 .env.local
