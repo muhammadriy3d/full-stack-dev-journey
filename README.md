@@ -1,4 +1,4 @@
-[![Docker Image CI](https://github.com/muhammadriy3d/full-stack-dev-journey/actions/workflows/docker-image.yml/badge.svg)](https://github.com/muhammadriy3d/full-stack-dev-journey/actions/workflows/docker-image.yml)
+#
 
 My whole full stack projects I made and a cool long journey
 
