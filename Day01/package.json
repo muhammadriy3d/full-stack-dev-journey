@@ -4,7 +4,8 @@
   "description": "hackers way",
   "main": "index.js",
   "dependencies": {
-  "http-server": "^14.1.1"
+    "day01": "file:../Day04",
+    "http-server": "^14.1.1"
   },
   "directories": {
     "doc": "docs"
