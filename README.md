@@ -14,37 +14,37 @@ visit day02: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day02/publi
 
 - Clone this repo to your machine
 
-```console
+```shell
 git clone https://github.com/muhammadriy3d/full-stack-dev-journey.git
 ```
 
 - Change directory to the cloned repo
 
-```console
+```shell
 cd full-stack-dev-journey
 ```
 
 - default project: day02
 
-```console
+```shell
 make
 ```
 
 - Start a development server
 
-```console
+```shell
 make day01_dev // or any day**
 ```
 
 - Start a production server
 
-```console
+```shell
 make day01 // or any day**
 ```
 
 - for tests (it'll be avaliable later)
 
-```console
+```shell
 make test_day01 // or any day**
 ```
 
@@ -52,31 +52,31 @@ make test_day01 // or any day**
 
 - Clone this repo to your machine
 
-```console
+```shell
 git clone https://github.com/muhammadriy3d/full-stack-dev-journey.git
 ```
 
 - Change directory to the cloned repo
 
-```console
+```shell
 cd full-stack-dev-journey
 ```
 
 - Filesystem server
 
-```console
+```shell
 docker-compose -f docker-compose.yml up
 ```
 
 - Day* server
 
-```console
+```shell
 sudo docker build --build-arg DAY=02 .
 ```
 
 OR you can run it on custome workdir by use switch `-t example`
 
-```console
+```shell
 sudo docker build --build-arg DAY=02 -t yourworkdir:latest .
 ```
 
@@ -84,37 +84,37 @@ sudo docker build --build-arg DAY=02 -t yourworkdir:latest .
 
 - Clone this repo to your machine
 
-```console
+```shell
 git clone https://github.com/muhammadriy3d/full-stack-dev-journey.git
 ```
 
 - Change directory to the cloned repo
 
-```console
+```shell
 cd full-stack-dev-journey
 ```
 
 - Go to some project day (e.g: Day01)
 
-```console
+```shell
 cd Day01
 ```
 
 - Start a development server
 
-```console
+```shell
 npm run dev
 ```
 
 - Start a production server
 
-```console
+```shell
 npm start
 ```
 
 - for tests (it'll be avaliable later)
 
-```console
+```shell
 npm test
 ```
 
