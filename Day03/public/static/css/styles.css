@@ -144,7 +144,7 @@ input {
   box-shadow: 2px 4px 0px 6px rgba(0, 0, 0, 0.24);
 }
 
-.button:active, .button:focus {
+.button:active {
   background-color: #292d36;
   transform: scale(0.95);
   box-shadow: 2px 4px 0px 6px rgba(0, 0, 0, 0.16);
