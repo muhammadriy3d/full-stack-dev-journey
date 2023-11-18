@@ -8,7 +8,9 @@ visit day01: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day01/publi
 
 visit day02: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day02/public>
 
-visit day02: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day03/public>
+visit day03: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day03/public>
+
+visit day04: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day04/public>
 
 ## Usage
 
