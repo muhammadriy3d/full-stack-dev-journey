@@ -120,14 +120,14 @@ npm test
 
 ## Code Of Conduct
 
-feel free to enchance and build with me on this repo
+feel free to contribute and build with me on this repo
 
 rules:
 
 - fork this repo
 - create your own branch
 - make changes
-- 
+- create a pull request
 
 ## Credits
 
