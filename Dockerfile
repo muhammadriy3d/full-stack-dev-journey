@@ -11,7 +11,6 @@ WORKDIR /app
 
 # Copy package.json and package-lock.json files
 COPY package.json .
-COPY package-lock.json .
 
 # Install dependencies
 RUN npm install
@@ -24,10 +23,10 @@ ARG DAY
 # Conditional execution based on environment variable
 RUN if [ "$DAY" = "01" ]; then \
       # Copy package.json and package-lock.json files for day01
-      cd ./Day01 && cp package.json ../ && cp package-lock.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
+      cd ./Day01 && cp package.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
     elif [ "$DAY" = "02" ]; then \
       # Copy package.json and package-lock.json files for day01
-      cd ./Day02/ && cp package.json ../ && cp package-lock.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
+      cd ./Day02/ && cp package.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
     else \
       npm start; \
     fi
