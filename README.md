@@ -1,4 +1,4 @@
-# Full stack project
+#
 
 My whole full stack projects I made and a cool long journey
 
