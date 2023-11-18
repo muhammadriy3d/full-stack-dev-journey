@@ -1,6 +1,9 @@
 start default:
 	cd Day02 && npm start
 
+install:
+	npm install --prefix ./Day0*/
+
 # production
 
 day01:
