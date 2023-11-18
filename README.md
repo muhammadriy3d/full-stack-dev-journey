@@ -12,6 +12,8 @@ visit day03: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day03/publi
 
 visit day04: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day04/public>
 
+visit day05: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day05/public>
+
 ## Install
 
 ```shell

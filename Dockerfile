@@ -33,6 +33,9 @@ RUN if [ "$DAY" = "01" ]; then \
     elif [ "$DAY" = "04" ]; then \
       # Copy package.json and package-lock.json files for day01
       cd ./Day04/ && cp package.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
+    elif [ "$DAY" = "05" ]; then \
+      # Copy package.json and package-lock.json files for day01
+      cd ./Day05/ && cp package.json ../ && npm install && cp -r . ../ && cd .. && npm start; \
     else \
       npm start; \
     fi
