@@ -35,10 +35,14 @@ const appendDot = () => {
 // Function to calculate the expression
 const calculate = () => {
   const expression = display.value.replaceAll("×", "*");
+  if (display.value != "") {
   try {
-    let result = eval(expression);
-    display.value = result;
-  } catch (error) {
-    display.value = error;
+      let result = eval(expression);
+      display.value = result;
+    } catch {
+      display.value = "Error";
+    }
+  } else {
+    display.value = 0
   }
 }
