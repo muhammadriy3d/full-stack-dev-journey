@@ -12,6 +12,12 @@ visit day03: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day03/publi
 
 visit day04: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day04/public>
 
+## Install
+
+```shell
+make install
+```
+
 ## Usage
 
 ### First way: Makefile
