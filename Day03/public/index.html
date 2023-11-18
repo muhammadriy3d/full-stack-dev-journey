@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./favicon.ico" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Secure Calculator" />
+        <link name="apple-touch-icon" content="./static/assets/images/png/apple-touch-icon.png" />
+        <link name="manifest" content="./manifest.json" />
+        <link rel="stylesheet" href="./static/css/styles.css" />
+
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <header id="hero-container" class="hero-container">
+            <nav class="navbar">
+                <a href="/" class="brand">
+                    <h1 class="navbar-title"></h1>
+                </a>
+            </nav>
+            <div class="hero-content">
+                <div class="calculator-container">
+                    <form class="calc-form">
+                        <div class="calculator-display">
+                            <input class="display" type="text" name="display" placeholder="0" disabled />
+                        </div>
+                        <div class="buttons-container">
+                            <input class="button delete" onclick="clearDisplay()" type="button" name="button" value="AC" />
+                            <input class="button operator" onclick="appendOperator('%')" type="button" name="button" value="%" />
+                            <input class="button operator" onclick="appendOperator('/')" type="button" name="button" value="/" />
+                            <input class="button operator" onclick="appendOperator('-')" type="button" name="button" value="-" />
+                            <input class="button number" onclick="appendNumber('7')" type="button" name="button" value="7" />
+                            <input class="button number" onclick="appendNumber('8')" type="button" name="button" value="8" />
+                            <input class="button number" onclick="appendNumber('9')" type="button" name="button" value="9" />
+                            <input class="button operator" onclick="appendOperator('+')" type="button" name="button" value="+" />
+                            <input class="button number" onclick="appendNumber('4')" type="button" name="button" value="4" />
+                            <input class="button number" onclick="appendNumber('5')" type="button" name="button" value="5" />
+                            <input class="button number" onclick="appendNumber('6')" type="button" name="button" value="6" />
+                            <input class="button operator" onclick="appendOperator('*')" type="button" name="button" value="×" />
+                            <input class="button number" onclick="appendNumber('1')" type="button" name="button" value="1" />
+                            <input class="button number" onclick="appendNumber('2')" type="button" name="button" value="2" />
+                            <input class="button number" onclick="appendNumber('3')" type="button" name="button" value="3" />
+                            <input class="button number" onclick="appendNumber('0')" type="button" name="button" value="0" />
+                            <input class="button dot" onclick="appendDot()" type="button" name="button" value="." />
+                            <input class="button equal" onclick="calculate()" type="button" name="button" value="=" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <script src="./src/js/index.js"></script>
+    </body>
+
+</html>
