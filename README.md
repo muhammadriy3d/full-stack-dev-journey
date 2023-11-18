@@ -1,12 +1,12 @@
-#
+# Documentation
 
 My whole full stack projects I made and a cool long journey
 
 ## Preview Links
 
 visit day01: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day01/public>
-
 visit day02: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day02/public>
+visit day02: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day03/public>
 
 ## Usage
 
