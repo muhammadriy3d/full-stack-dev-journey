@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+:root {
+  --page-color: #171717;
+  --sep-color: #333;
+  --button-color: rgb(250, 99, 99);
+  --primary-bg-color: #ff8787;
+  --card-color: #fff;
+  --primary-text-color: #ffffff;
+  --menu-text-color: #aeafb2;
+  --nav-text-color: #dbdbdd;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--page-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.hero-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1470px;
+  color: var(--primary-text-color);
+}
+
+.brand {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.hero-content {
+  height: 78dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100px;
+  height: 100px;
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+  margin: .5em 0 .2em;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.todo-container {
+  height: 100%;
+}
+
+.tasks-input {
+  background-color: var(--sep-color);
+  border: 1px solid rgb(91, 92, 93);
+  border-radius: 30px;
+  padding: .8rem 1.4rem;
+  font-size: 1.2em;
+  color: var(--primary-text-color);
+  transition: all 0.3s;
+  margin-left: 2rem;
+}
+
+.tasks-input:focus, .tasks-input:active {
+  outline: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transform: scale(1.02);
+}
+
+.add-task {
+  position: relative;
+  left: -4.2rem;
+  top: -1px;
+  background-color: #187af2;
+  border-radius: 20px;
+  padding: .6rem .85rem;
+  font-size: 1em;
+  border: 0;
+  color: white;
+}
+
+.tasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.task {
+  padding: .6rem 1rem;
+  font-size: 1em;
+  border: 1px solid var(--sep-color);
+  border-radius: 30px;
+  width: 530px;
+  margin: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s;
+}
+
+.task .close {
+  user-select: none;
+  font-size: 1.5rem;
+  /* background-color: rgba(255, 50, 50, 0.739); */
+  /* border: 1px solid rgba(255, 50, 50, 0.739); */
+  border-radius: 180px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.task.checked {
+  text-decoration: line-through;
+  background: rgba(0, 255, 187, 0.563);
+}
+
+.task .close:hover {
+  background-color: rgb(207, 0, 0);
+}
+
+.task .close:active {
+  background-color: rgb(156, 0, 0);
+}
+
+.add-task:hover {
+  background-color: #0058ca;
+}
+
+.add-task:active {
+  background-color: #004bae;
+}
+
+.h-seperator {
+  width: 100%;
+  height: 1px;
+  background-color: var(--sep-color);
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  padding: 0 1rem;
+  color: var(--primary-text-color);
+}
+
+.footer-con-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1470px;
+  width: 100%;
+}
+
+.footer-title {
+  display: flex;
+}
+
+.footer-title h5 {
+  font-size: .9em;
+  font-weight: 600;
+}
+
+.footer-title h5 span {
+  background: rgb(21, 106, 210);
+  font-weight: 500;
+  border-radius: .26rem;
+  padding: 0.12rem .5rem;
+  margin: 0 .6rem;
+}
+
+.footer-social-links {
+  background: rgb(21, 106, 210);
+  font-weight: 500;
+  font-size: .9em;
+  border-radius: .26rem;
+  padding: 0.12rem .5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-item-link {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 20vh;
+  }
+
+  .footer-con-12 {
+    flex-direction: column;
+  }
+
+  .footer-social-links {
+    margin: .5rem;
+  }
+}
