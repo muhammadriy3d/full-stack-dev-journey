@@ -1,1 +1,7 @@
 package-lock.json
+/project_sample
+/node_modules
+*.dev.*
+
+.env.development
+.env.local

@@ -1,16 +1,16 @@
 {
   "name": "day01",
   "version": "1.0.0",
-  "description": "hackers way",
+  "description": "A sample static site",
   "main": "index.js",
   "dependencies": {
-  "http-server": "^14.1.1"
+    "http-server": "^14.1.1"
   },
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start": "http-server -o / -a 0.0.0.0 -p 8080 -r /robots.txt -g true",
+    "start": "http-server -o / -a 0.0.0.0 -p 8080 -g true",
     "dev": "cross-env NODE_OPTIONS=--trace-deprecation http-server -o / -a 0.0.0.0 -p 3000 -s -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

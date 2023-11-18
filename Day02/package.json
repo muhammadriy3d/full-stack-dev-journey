@@ -1,11 +1,8 @@
 {
   "name": "day01",
   "version": "1.0.0",
-  "description": "hackers way",
+  "description": "simple git portfolio way",
   "main": "index.js",
-  "dependencies": {
-  "http-server": "^14.1.1"
-  },
   "directories": {
     "doc": "docs"
   },
