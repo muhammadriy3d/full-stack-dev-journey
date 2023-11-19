@@ -21,6 +21,9 @@ day04:
 day05:
 	cd Day05 && npm start
 
+day06:
+	cd day06 && npm start
+
 # development
 
 day01_dev:
@@ -38,6 +41,9 @@ day04_dev:
 day05_dev:
 	cd Day05 && npm run dev
 
+day06_dev:
+	cd day06 && npm run dev
+
 # tests
 
 test_day01:
@@ -54,3 +60,6 @@ test_day04:
 
 test_day05:
 	cd Day05 && npm test
+
+test_day06:
+	cd day06 && npm test
