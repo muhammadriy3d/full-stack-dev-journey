@@ -14,6 +14,12 @@ visit day04: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day04/publi
 
 visit day05: <https://muhammadriy3d.github.io/full-stack-dev-journey/Day05/public>
 
+visit day06-mobile: <https://muhammadriy3d.github.io/full-stack-dev-journey/day06/src/docs/stark02.png>
+
+visit day06-mobile-menu-open: <https://muhammadriy3d.github.io/full-stack-dev-journey/day06/src/docs/stark03.png>
+
+visit day06-desktop: <https://muhammadriy3d.github.io/full-stack-dev-journey/day06/src/docs/stark04.png>
+
 ## Install
 
 ```shell
